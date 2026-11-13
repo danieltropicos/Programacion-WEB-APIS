@@ -85,4 +85,4 @@ app.delete("/productos/:id", (req, res) => {
     res.status(204).end();
 });
 
-app.listen(3001, () => console.log("Servidor R LOCALHOST"));
+app.listen(3002, () => console.log("Servidor R LOCALHOST"));
